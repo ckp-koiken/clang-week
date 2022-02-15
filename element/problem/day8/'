@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+  int r;
+  srand((unsigned)time(NULL));
+  r = rand() % 1000 + 1;
+  printf("%d\n", r);
+  return 0;
+}
