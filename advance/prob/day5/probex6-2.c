@@ -3,10 +3,6 @@
 
 #define STUDENT_NUM (5)
 
-/* 名前、学生番号、性別、学年を構造体student_dataにまとめて表現したい */
-
-
-
 typedef struct {
   char name[256];  // 学生の名前
   int id;  // 学生番号
