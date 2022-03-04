@@ -10,8 +10,8 @@ int main() {
     exit(1);
   }
   //  ファイルにデータを書き込む
-  fprintf(file, "Hello World.\r\n");  // ファイルに書く
-  fprintf(file, "ABCDEF\r\n");
+  fprintf(file, "Hello World.\n");  // ファイルに書く
+  fprintf(file, "ABCDEF\n");
   fclose(file);
   printf("hello\n");
   return 0;
