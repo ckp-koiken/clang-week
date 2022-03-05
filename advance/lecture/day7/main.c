@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "studentDatabase.h"
 #include "dataOutput.h"
 
 int main() {
