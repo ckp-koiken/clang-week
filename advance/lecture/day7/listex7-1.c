@@ -54,7 +54,6 @@ int main() {
   return 0;
 }
 
-
 // データベースの初期化
 void initDatabase() {
   int i;
