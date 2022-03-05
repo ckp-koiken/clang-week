@@ -48,7 +48,7 @@ int main() {
     printf("登録：%d %s\n", ids[i], names[i]);
     showError();
   }
-  for(i = 0; i < 3; i++) {  // 登録したデータの出力
+  for(i = 0; i < 4; i++) {  // 登録したデータの出力
     showStudentData(get(i+1));
   }
   return 0;
